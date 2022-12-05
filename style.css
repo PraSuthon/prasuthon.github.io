@@ -1,5 +1,40 @@
+section {
+    padding-top: 128px;
+}
+
 .navbar {
     border-top: 2px solid;
     border-bottom: 2px solid;
-    background-image: linear-gradient(to right, wheat, #ebbe42);
+    background-image: linear-gradient(to right, wheat 0%, #ebbe42 40%);
+}
+
+.home h1 {
+    font-size: 72px;
+}
+
+.home h3 {
+    font-size: 48px;
+}
+
+#profil {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+#profil img {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+
+.home .arrow img {
+    width: 60px;
+}
+
+@keyframes UpDown {
+    0% {
+        transform: translate();
+    }
 }
