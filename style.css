@@ -1,0 +1,5 @@
+.navbar {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-image: linear-gradient(to right, wheat, #ebbe42);
+}
